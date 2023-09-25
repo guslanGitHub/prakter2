@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body {
+  background-color: lightblue;
+}
+.row {
+  width: 70%;
+  background-color: #fff;
+  margin: 5rem auto;
+  display: flex;
+}
