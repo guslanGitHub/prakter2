@@ -6,53 +6,36 @@
   font-family: sans-serif;
 }
 body {
-  background-color: lightblue;
+  background-color: #aeedae;
 }
 .row {
-  width: 70%;
   background-color: #fff;
-  margin: 5rem auto;
+  width: 70%;
+  margin: 3rem auto;
   display: flex;
-  padding: 5rem 4rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   background: linear-gradient(
     135deg,
-    #1deffe,
+    rgb(34, 239, 242),
     rgba(255, 255, 255, 0.5),
-    #f5f589
+    rgb(251, 179, 73)
   );
+  padding: 5rem 4rem;
 }
 .row .box {
   width: 50%;
-  padding: 1rem 2rem;
 }
 .row .box img {
-  display: block;
-  width: 75%;
+  width: 80%;
 }
-.row .box h3 {
-  margin-top: 2rem;
-}
-
 .row .box h1 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .row .box p {
   font-size: 0.9rem;
 }
 .row .box p b {
   display: block;
-  margin-bottom: 3rem;
-}
-.input-group {
-  border: 1px solid #fff;
-  margin-bottom: 1.5rem;
-}
-.input-group input {
-  width: 100%;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  padding: 0.5rem;
+  margin-bottom: 2rem;
 }
